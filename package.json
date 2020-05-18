@@ -1,0 +1,39 @@
+{
+  "name": "resource-cli",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "rsf": "./bin/index.js"
+  },
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "@quanxiaoxiao/about-http": "0.0.18",
+    "@quanxiaoxiao/router": "0.0.22",
+    "@quanxiaoxiao/www": "0.0.8",
+    "d3-array": "^2.4.0",
+    "file-size": "^1.0.0",
+    "koa": "^2.12.0",
+    "koa-compress": "^4.0.1",
+    "koa-conditional-get": "^2.0.0",
+    "koa-etag": "^3.0.0",
+    "lowdb": "^1.0.0",
+    "moment": "^2.25.3",
+    "open": "^7.0.4",
+    "qrcode-terminal": "^0.12.0",
+    "yargs": "^15.3.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.0.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4.0.2"
+  }
+}
