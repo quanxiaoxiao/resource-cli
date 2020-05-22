@@ -12,9 +12,9 @@
     "start": "node src/server.js"
   },
   "dependencies": {
-    "@quanxiaoxiao/about-http": "0.0.18",
-    "@quanxiaoxiao/router": "0.0.22",
-    "@quanxiaoxiao/www": "0.0.8",
+    "@quanxiaoxiao/about-http": "0.0.19",
+    "@quanxiaoxiao/router": "0.0.23",
+    "@quanxiaoxiao/www": "0.0.9",
     "d3-array": "^2.4.0",
     "file-size": "^1.0.0",
     "koa": "^2.12.0",
@@ -22,7 +22,7 @@
     "koa-conditional-get": "^2.0.0",
     "koa-etag": "^3.0.0",
     "lowdb": "^1.0.0",
-    "moment": "^2.25.3",
+    "moment": "^2.26.0",
     "open": "^7.0.4",
     "qrcode-terminal": "^0.12.0",
     "yargs": "^15.3.1"
